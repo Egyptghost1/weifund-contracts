@@ -2,11 +2,11 @@
 
 Thank you for visiting the WeiFund Bug Bounty.
 
-WeiFund is crowdfunding infrastructure on and for the Ethereum ecosystem. Successful bug hunters will be rewarded with up to $5,000 in ether and recognition on our website and github page (See Rewards & Rules section below for details).
+WeiFund is crowdfunding infrastructure on and for the Ethereum ecosystem. Successful bug hunters will be rewarded with up to $5,000 in ether and recognition on our website and github page (See Rewards &amp; Rules section below for details).
 
-Below you'll find all the details on this program. If you've already read this information and have found a bug you'd like to submit to WeiFund for review, please use this form: [Submit a Bug](https://goo.gl/forms/R0w3vaKdjv3s7SqY2).
+Below you&#39;ll find all the details on this program. If you&#39;ve already read this information and have found a bug you&#39;d like to submit to WeiFund for review, please use this form: [Submit a Bug](https://goo.gl/forms/R0w3vaKdjv3s7SqY2).
 
-A great place to learn about our platform's technical design and operation is in our [concise documentation](https://weifund.readthedocs.io/en/latest/).
+A great place to learn about our platform&#39;s technical design and operation is in our [concise documentation](https://weifund.readthedocs.io/en/latest/).
 
 In addition to reviewing our github repositories, [two WeiFund campaigns](https://weifund.surge.sh) serving as honey pots, are already live on the mainnet. WeiFund will be funding these campaigns over the course of the next two weeks.
 
@@ -15,7 +15,7 @@ Table of Contents | Details |
 ------- |----------|
 **Rewards**| What are the rewards and assessment criteria|
 **Rules**| Who can participate|
-**Targets**|What's in scope, out of scope, and examples of both|
+**Targets**|What&#39;s in scope, out of scope, and examples of both|
 **Details of Deployed Campaigns and Contracts** |Information on the honey pot campaign contracts|
 **FAQ**|
 **Legal**|
@@ -33,11 +33,11 @@ Paid out **Rewards** in ether are guided by the **Severity** category and the **
 
 **Severity** is calculated according to [OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology)’s risk model:
 
-![Severity Chart](/assets/severity.png?raw=true "")
+![Severity Chart](/assets/severity.png?raw=true &quot;&quot;)
 
 **Quality** of the submission includes (but not limited to):
 
-* Quality of Description, Attack Scenario & Components: Clear and well-written descriptions will receive higher rewards.
+* Quality of Description, Attack Scenario &amp; Components: Clear and well-written descriptions will receive higher rewards.
 * Quality of Reproduction: Include test code, scripts and detailed instructions. The easier it is for us to reproduce and verify the vulnerability, the higher the reward.
 * Quality of Fix: Higher rewards are paid for submissions with clear instructions to fix the vulnerability.
 
@@ -46,9 +46,9 @@ Beyond monetary rewards, every bounty hunter is also eligible for being listed o
 ##Rules
 
 * Issues that have already been submitted by another user or are already known to WeiFund are not eligible for bounty rewards
-* Public disclosure of a vulnerability without WeiFund's prior consent results in ineligibility for a bounty
-* ConsenSys' employees and all other people paid by ConsenSys, directly or indirectly, are not eligible for rewards
-* Determinations of eligibility, award, and all terms related to an award are at the sole and final discretion of WeiFund. Decisions are guided by the submision's Impact, Likelihood and Quality
+* Public disclosure of a vulnerability without WeiFund&#39;s prior consent results in ineligibility for a bounty
+* ConsenSys&#39; employees and all other people paid by ConsenSys, directly or indirectly, are not eligible for rewards
+* Determinations of eligibility, award, and all terms related to an award are at the sole and final discretion of WeiFund. Decisions are guided by the submision&#39;s Impact, Likelihood and Quality
 
 ##Targets
 
@@ -60,12 +60,12 @@ Beyond monetary rewards, every bounty hunter is also eligible for being listed o
 * **Web3 Provider**: https://github.com/ConsenSys/hooked-web3-provider/blob/3ae3a4846cb56a9027696c97db6d6e19a9694c1c/app/hooked-web3-provider.es6
 * **Multisig-Wallet**: https://github.com/ConsenSys/MultiSigWallet
 
-**Examples of what's in scope** 
+**Examples of what&#39;s in scope** 
 
 * Being able to obtain more tokens than expected
 * Being able to obtain tokens from someone without their permission
 * Bugs that lead to loss or theft of ether
-* Bugs causing a transaction to be sent that was different from what user confirmed: for example, user transfers 10 ether in the UI, but exactly 10 wasn't transferred.
+* Bugs causing a transaction to be sent that was different from what user confirmed: for example, user transfers 10 ether in the UI, but exactly 10 wasn&#39;t transferred.
 * Bugs that could lead to the direct loss of funds such as paying out to non-intended payout beneficiaries
 * Bugs that lead to tokens being claimed before they should be
 * Bugs that lead to the wrong amount of funds being refunded when a campaign is not successful
@@ -74,15 +74,15 @@ Beyond monetary rewards, every bounty hunter is also eligible for being listed o
 ### Out of scope:
 
 * Bugs related to Internet Explorer and browser-based issues
-* All browser rendering bugs that don't affect the display of critical information
+* All browser rendering bugs that don&#39;t affect the display of critical information
 * Most user experience improvements on the frontend
-* WeiFund's website: WeiFund.io
+* WeiFund&#39;s website: WeiFund.io
 * Attacks via social engineering
 
 
-**Examples of what's out of scope**
+**Examples of what&#39;s out of scope**
 
-* Most user experience improvements on the frontend, for example some part of the website doesn't update unless the page is refreshed
+* Most user experience improvements on the frontend, for example some part of the website doesn&#39;t update unless the page is refreshed
 
 ##Details of Deployed Campaigns and Contracts
 
@@ -186,11 +186,11 @@ Here is an example of a real issue which was previously identified
 
 **Components**: weifund-contracts/src/contracts/Model1Enhancer.sol and weifund-contracts/src/contracts/StandardCampaign.sol
 
-**Reproduction**: Deploy campaign contracts in 'wafr' environment. Contribute to the point of the funding cap. Then log around the funding cap to reproduce.
+**Reproduction**: Deploy campaign contracts in &#39;wafr&#39; environment. Contribute to the point of the funding cap. Then log around the funding cap to reproduce.
 
 **Details**: Any other details not covered. Can also contain links to GitHub Gists, repos containing code samples, etc.
 
-**Fix**: Remove 'stage()' modifier from 'notate' method.
+**Fix**: Remove &#39;stage()&#39; modifier from &#39;notate&#39; method.
 
 ###Is the bug bounty program time limited?
 
